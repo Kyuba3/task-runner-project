@@ -190,3 +190,41 @@
     margin: 0 100px;
 
 }
+
+/* FOOTER */
+
+.page-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.page-footer .left-side {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start ;
+    padding: 10px;
+}
+
+.page-footer .left-side i{
+    padding: 10px;
+}
+
+.page-footer .center-side{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;   
+}
+
+.page-footer .center-side i {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    margin: 0 10px;
+    flex: 0 50%;
+    
+}
