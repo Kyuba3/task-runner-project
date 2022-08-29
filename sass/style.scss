@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
 /*HEADER BACKGROUND IMAGE*/  
 
 .wraper {
@@ -226,5 +231,41 @@
     padding: 0.5em 0.6em;
     margin: 0 10px;
     flex: 0 50%;
+}
+
+/*MEDIA*/
+
+@media (max-width: 767px) {
     
+    .navigation-list{
+        flex-direction: column;
+    }
+
+    .header-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .btn-first {
+        margin-bottom: 20px;
+    }
+    
+    .portfolio-box{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .portfolio-img {
+        flex-direction: column;
+        width: 150px;
+        height: 100%;
+    }
+
+    .porftolio-description {
+        flex-direction: column;
+        text-align: center;
+        width: 150px;
+        height: 100%;
+    }
 }
