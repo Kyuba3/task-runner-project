@@ -132,8 +132,16 @@
 /*PORTFOLIO*/
 
 .portfolio {
-    background-color: grey;
+    background-color: rgb(211, 211, 211);
     min-height: 800px;
+}
+
+.portfolio-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 1000px;
+
 }
 
 .portfolio .portfolio-text {
@@ -147,4 +155,38 @@
     text-align: center;
     margin-top: 5px;
     
+}
+
+.portfolio-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex: 0 0 30%;
+    align-content: space-around; 
+    margin-bottom: 30px ;
+}
+
+.portfolio-img {
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+    padding: 0 100px;
+}
+
+.portfolio-img img{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.porftolio-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding-top: 20px;
+    margin: 0 100px;
+
 }
